@@ -1,0 +1,5 @@
+run cf_loados
+run cf_peri_frm_img
+run cf_loadapp
+setenv serverip 192.168.174.102
+savee

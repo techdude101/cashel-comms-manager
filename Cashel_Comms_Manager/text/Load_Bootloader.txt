@@ -1,0 +1,7 @@
+reset
+load 0x0 u-boot.bin BIN
+verify 0x0 u-boot.bin BIN
+erase 0xfff00000 0x20000 7
+prog 0xfff00000 u-boot.bin BIN
+verify 0xfff00000 u-boot.bin BIN
+go

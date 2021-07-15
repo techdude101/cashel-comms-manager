@@ -1,0 +1,5 @@
+rm -rf /home/logs/*
+rm -rf  /home/dfr/*
+rm -rf  /home/pq/*
+rm -rf  /home/css/*
+rm -rf  /home/logs/*
